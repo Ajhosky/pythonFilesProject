@@ -1,5 +1,8 @@
 import csv
 
-oceny = open("oceny.txt")
-przedmioty = open("przedmioty.txt")
-uczniowie = open("uczniowie.txt")
+file1 = open("./oceny.txt")
+file2 = open("przedmioty.txt")
+file3 = open("uczniowie.txt")
+
+oceny = file1.read()
+print(oceny)
